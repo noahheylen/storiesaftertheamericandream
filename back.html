@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>stories after the american dream</title>
+</head>
+
+<body>
+<img height="500px" id="bannerImage" src=" poppetje/2.png" /><br />
+<button onclick="changeImage(' poppetje/2.png')">Image 1</button>
+<button onclick="changeImage(' poppetje/3.png')">Image 2</button>
+<button onclick="changeImage(' poppetje/4.png')">Image 3</button>
+<button onclick="changeImage(' poppetje/5.png')">Image 4</button>
+<button onclick="changeImage(' poppetje/6.png')">Image 5</button>
+<button onclick="changeImage(' poppetje/7.png')">Image 6</button>
+<button onclick="changeImage(' poppetje/12.png')">Image 7</button>
+<button onclick="changeImage(' poppetje/13.png')">Image 8</button>
+<button onclick="changeImage(' poppetje/14.png')">Image 9</button>
+<button onclick="changeImage(' poppetje/15.png')">Image 10</button>
+<button onclick="changeImage(' poppetje/17.png')">Image 11</button>
+<button onclick="changeImage(' poppetje/18.png')">Image 12</button>
+<button onclick="changeImage(' poppetje/20.png')">Image 13</button>
+<button onclick="changeImage(' poppetje/19.png')">Image 14</button>
+
+
+<script>
+function changeImage(fileName) {
+let img = document.querySelector("#bannerImage");
+img.setAttribute("src", fileName);
+}
+</script>
+
+</body>
+
+</html>

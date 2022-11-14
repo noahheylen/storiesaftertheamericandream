@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>9stories after the american dream</title>
+</head>
+
+<body>
+<img height="500px" id="bannerImage" src=" flight/62.png" /><br />
+<button onclick="changeImage(' flight/62.png')">Image 1</button>
+<button onclick="changeImage(' flight/63.png')">Image 2</button>
+<button onclick="changeImage(' flight/64.png')">Image 3</button>
+<button onclick="changeImage(' flight/65.png')">Image 4</button>
+<button onclick="changeImage(' flight/66.jpg')">Image 5</button>
+<script>
+function changeImage(fileName) {
+let img = document.querySelector("#bannerImage");
+img.setAttribute("src", fileName);
+}
+</script>
+
+</body>
+
+</html>

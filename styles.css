@@ -1,0 +1,21 @@
+
+a:link { text-decoration: none; color: black;}
+a:visited { text-decoration: none; color: white;}
+a:hover { text-decoration: none; color: black;}
+a:active { text-decoration: none; color: black;}
+
+.banner {
+  border-radius: 20px;
+  left: 500px;
+  font-size: 50px;
+  font-style: normal;
+  font-family: monospace;
+  height: 50px;
+  padding: 30px;
+  margin: 30px;
+  color: #4f2522;
+  text-align: center;
+  position: fixed;
+  text-decoration: underline;
+  text-shadow: black;
+}

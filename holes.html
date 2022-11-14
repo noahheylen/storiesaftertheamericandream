@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>stories after the american dream</title>
+</head>
+
+<body>
+<img height="500px" id="bannerImage" src=" hole/3.jpg" /><br />
+<button onclick="changeImage(' hole/3.jpg')">Image 1</button>
+<button onclick="changeImage(' hole/1.jpg')">Image 2</button>
+<button onclick="changeImage(' hole/2.jpg')">Image 3</button>
+
+
+<script>
+function changeImage(fileName) {
+let img = document.querySelector("#bannerImage");
+img.setAttribute("src", fileName);
+}
+</script>
+
+</body>
+
+</html>
